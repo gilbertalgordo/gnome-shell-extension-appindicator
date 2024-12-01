@@ -1,139 +1,137 @@
-# Czech translation of gnome-shell-extension-appindicator.
-# Copyright (C) 2022
+# Chinese translations for AppIndicatorExtension package.
+# Copyright (C) 2024 THE AppIndicatorExtension'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the AppIndicatorExtension package.
-# Daniel Rusek <mail@asciiwolf.com>, 2022.
+# Peter Hsu <hsu@peterdavehello.org>, 2024.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: AppIndicatorExtension\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-07 02:36+0100\n"
-"PO-Revision-Date: 2024-06-18 11:10+0200\n"
-"Last-Translator: Ludek Vydra <lvtran@u.k2.cz>\n"
-"Language-Team: \n"
-"Language: cs\n"
+"PO-Revision-Date: 2024-04-16 15:17+0800\n"
+"Last-Translator: Peter Dave Hello <hsu@peterdavehello.org>\n"
+"Language-Team: Chinese (traditional)\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Poedit 3.4.4\n"
 
 #: prefs.js:59
 msgid "Enable Legacy Tray Icons support"
-msgstr "Povol podporu starších ikon na liště"
+msgstr "啟用舊版系統工具列圖示支援"
 
 #: prefs.js:91
 msgid "Opacity (min: 0, max: 255)"
-msgstr "Neprůhlednost (min: 0, max: 255)"
+msgstr "不透明度（最小：0，最大：255）"
 
 #: prefs.js:120
 msgid "Desaturation (min: 0.0, max: 1.0)"
-msgstr "Odbarvení (min: 0.0, max: 1.0)"
+msgstr "色彩飽和度下降（最小：0.0，最大：1.0）"
 
 #: prefs.js:148
 msgid "Brightness (min: -1.0, max: 1.0)"
-msgstr "Jas (min: -1.0, max: 1.0)"
+msgstr "亮度（最小：-1.0，最大：1.0）"
 
 #: prefs.js:176
 msgid "Contrast (min: -1.0, max: 1.0)"
-msgstr "Kontrast (min: -1.0, max: 1.0)"
+msgstr "對比度（最小：-1.0，最大：1.0）"
 
 #: prefs.js:204
 msgid "Icon size (min: 0, max: 96)"
-msgstr "Velikost ikon (min: 0, max: 96)"
+msgstr "圖示大小（最小：0，最大：96）"
 
 #: prefs.js:232
 msgid "Tray horizontal alignment"
-msgstr "Vodorovné zarovnání lišty"
+msgstr "系統工具列水平對齊"
 
 #: prefs.js:237
 msgid "Center"
-msgstr "Ve středu"
+msgstr "置中"
 
 #: prefs.js:238
 msgid "Left"
-msgstr "Vlevo"
+msgstr "靠左"
 
 #: prefs.js:239
 msgid "Right"
-msgstr "Vpravo"
+msgstr "靠右"
 
 #: prefs.js:286
 msgid "Indicator ID"
-msgstr "ID"
+msgstr "指示器識別碼"
 
 #: prefs.js:287
 msgid "Icon Name"
-msgstr "Název ikony"
+msgstr "圖示名稱"
 
 #: prefs.js:288
 msgid "Attention Icon Name"
-msgstr "Název ikony s upozorněním"
+msgstr "注意圖示名稱"
 
 #: prefs.js:363
 msgid "Preferences"
-msgstr "Předvolby"
+msgstr "偏好設定"
 
 #: prefs.js:365
 msgid "Custom Icons"
-msgstr "Vlastní ikony"
+msgstr "自訂圖示"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:5
 msgid "Enable legacy tray icons support"
-msgstr "Povol podporu starších ikon na liště"
+msgstr "啟用舊版系統工具列圖示支援"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:9
 msgid "Saturation"
-msgstr "Sytost"
+msgstr "飽和度"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:13
 msgid "Brightness"
-msgstr "Jas"
+msgstr "亮度"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:17
 msgid "Contrast"
-msgstr "Kontrast"
+msgstr "對比度"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:21
 msgid "Opacity"
-msgstr "Neprůhlednost"
+msgstr "不透明度"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:25
 msgid "Icon size"
-msgstr "Velikost ikony"
+msgstr "圖示大小"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:26
 msgid "Icon size in pixel"
-msgstr "Velikost ikony v pixelech"
+msgstr "圖示大小（像素）"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:30
 msgid "Icon spacing"
-msgstr "Rozestupy mezi ikonami"
+msgstr "圖示間距"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:31
 msgid "Icon spacing within the tray"
-msgstr "Rozestupy mezi ikonami na liště"
+msgstr "系統工具列內的圖示間距"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:35
 msgid "Position in tray"
-msgstr "Umístění na liště"
+msgstr "系統工具列中的位置"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:36
 msgid "Set where the Icon tray should appear in Gnome tray"
-msgstr "Nastavte, kde na Gnome liště se má lišta ikon zobrazovat"
+msgstr "設定圖示系統工具列在 GNOME 系統工具列中的顯示位置"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:40
 msgid "Order in tray"
-msgstr "Pořadí na liště"
+msgstr "系統工具列中的排序"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:41
 msgid "Set where the Icon tray should appear among other trays"
-msgstr "Nastavte, kde mezi ostatními lištami se má lišta ikon zobrazovat"
+msgstr "設定圖示系統工具列與其他系統工具列的顯示順序"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:45
 msgid "Custom icons"
-msgstr "Vlastní ikony"
+msgstr "自訂圖示"
 
 #: schemas/org.gnome.shell.extensions.appindicator.gschema.xml:46
 msgid "Replace any icons with custom icons from themes"
-msgstr "Nahradit libovolné ikony vlastními ikonami z motivů"
+msgstr "用主題中的自訂圖示替換任何圖示"
